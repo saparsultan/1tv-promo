@@ -1,5 +1,22 @@
 {
   "Index": {
-  "title": "Hello world!"
-}
+    "title": "Привет мир!"
+  },
+  "Menu": {
+    "rules": "Правила",
+    "winners": "Победители",
+    "faq": "FAQ",
+    "cabinet": "Личный кабинет"
+  },
+  "Title": {
+    "main": "Розыгрыш <br/> на прямом эфире",
+    "subMain": "через  1 час (1:00:00)"
+  },
+  "Button": {
+    "goTelegram": "Перейти в телеграм",
+    "haveQuestions": "Остались вопросы? Напишите"
+  },
+  "Desc": {
+    "descMain": "Купи продукцию MacCoffee на сумму 1500 тенге в сети магазинов SMALL & SKIF"
+  }
 }

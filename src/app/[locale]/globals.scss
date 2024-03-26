@@ -171,8 +171,9 @@ a {
   align-items: center;
   gap: 30px;
 
-  a {
+  div {
     font-weight: 500;
+    cursor: pointer;
   }
 }
 
@@ -193,8 +194,9 @@ a {
   display: flex;
   align-items: center;
 
-  a {
+  div {
     padding: 8px 12px;
+    cursor: pointer;
   }
 
   .active {
@@ -209,7 +211,7 @@ a {
     &__container {
       padding: 90px 0;
       color: var(--color-light);
-      background-image: url('../assets/main-banner.jpg');
+      background-image: url('../../assets/main-banner.jpg');
       background-size: cover;
       background-position: center center;
     }
@@ -303,7 +305,7 @@ a {
   &-block {
     padding: 160px 0 200px 0;
     color: var(--color-light);
-    background-image: url('../assets/main-banner.jpg');
+    background-image: url('../../assets/main-banner.jpg');
     background-size: cover;
     background-position: center center;
     &__container {
@@ -341,11 +343,17 @@ a {
     input {
       width: 100%;
       font-size: 24px;
+      font-weight: 300!important;
       padding: 24px 32px;
       color: var(--color-light);
       background-color: transparent;
       border: none;
       outline: none;
+      &::placeholder {
+        font-weight: 300!important;
+        color: var(--color-light);
+        opacity: .8;
+      }
     }
   }
   &-sort {

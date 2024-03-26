@@ -1,5 +1,22 @@
 {
   "Index": {
-    "title": "Hello world!"
+    "title": "Привет мир!"
+  },
+  "Menu": {
+    "rules": "Ереже",
+    "winners": "Жеңімпаздар",
+    "faq": "FAQ",
+    "cabinet": "Жеке кабинет"
+  },
+  "Title": {
+    "main": "Тікелей эфирдегі <br/> ұтыс ойыны",
+    "subMain": "1 сағаттан кейін (1:00:00)"
+  },
+  "Button": {
+    "goTelegram": "Телеграмға өту",
+    "haveQuestions": "Сұрақтарыңыз бар ма? Жазыңыз"
+  },
+  "Desc": {
+    "descMain": "SMALL & SKIF дүкендер желісінен 1500 теңге тұратын MacCoffee өнімдерін сатып алыңыз"
   }
 }
